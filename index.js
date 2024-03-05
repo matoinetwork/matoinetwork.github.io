@@ -49,7 +49,7 @@ function handleCommand(command) {
         ----------------------------------\n
         Available pages:\n
          npmanager.apk - NP Manager APK\n
-         apkeditorpro.apl -  APK Editor Pro APKd\n
+         apkeditorpro.apk -  APK Editor Pro APKd\n
 	 unifiedremotefull.apk - Unified Remote FULL APK download\n
          mtmanagervip.apk - MT Manager VIP Clone APK\n
         ----------------------------------\n
@@ -77,7 +77,7 @@ function handleCommand(command) {
 	} else if (command === 'unifiedremotefull.apk') {
         window.location.replace('https://files.modyolo.com/Unified%20Remote/Unified_Remote_Full-v3.22.3_build_322004-Mod.apk');
 	} else if (command === 'apkeditorpro.apk') {
-        window.location.replace('https://relaxmodapk.net/apk-editor-pro/file/?urls=https%3A%2F%2Fdl.relaxmodapk.com%2Ffiles%2Fapps%2Fapk_ediotr_pro_%286.3.4.1.5.6%28relaxmodapk.net%29.apk');
+        window.location.replace('https://dl.relaxmodapk.com/files/apps/apk_ediotr_pro_(6.3.4.1.5.6(relaxmodapk.net).apk');
         } else if (command === 'mtmanagervip.apk') {
         window.location.replace('https://dl.relaxmodapk.com/files/apps/MT%20Manager%20v2.14.5-clone%20(Semi%20ViP).apk');
     } else if (command === 'poweroff') {
