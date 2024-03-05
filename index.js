@@ -89,7 +89,7 @@ function handleCommand(command) {
     } else if (command === 'reload') {
         output.innerHTML += rebootText;
         setTimeout(function() {
-            window.location.replace('https://matoi.docc.ru');
+            window.location.replace('http://matoi.docc.ru');
         }, 5000);
 
     } else {
