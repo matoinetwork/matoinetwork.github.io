@@ -48,9 +48,9 @@ function handleCommand(command) {
         const helpText = `Available commands:\n
         ----------------------------------\n
         Available pages:\n
-        forum - Matoi Network Forum\n
-        darkforums.me.code.download -  darkforums.me source code download\n
-	 unified-remote-full.apk - Unified Remote FULL APK download\n
+         npmanager.apk - NP Manager APK\n
+         apkeditorpro.apl -  APK Editor Pro APKd\n
+	 unifiedremotefull.apk - Unified Remote FULL APK download\n
          mtmanagervip.apk - MT Manager VIP Clone APK\n
         ----------------------------------\n
         General commands:\n
@@ -66,16 +66,18 @@ function handleCommand(command) {
         output.innerHTML = '';
     } else if (command === 'about') {
         output.innerHTML += "matoinet.eu is the center for the entire Matoi Network."
+    } else if (command === 'telegram') {
+        output.innerHTML += "t.me/drmatoi"
     } else if (command === 'contact') {
         output.innerHTML += "m4t01@proton.me - Telegram @drmatoi"
     } else if (command === 'sourcecode') {
         window.location.replace('https://matoinet.eu');
-} else if (command === 'forum') {
-        window.location.replace('https://forum.matoinet.eu');
-	} else if (command === 'darkforums.me.code.download') {
-        window.location.replace('https://t.me/gigoffiziell/379');
-	} else if (command === 'unified-remote-full.apk') {
-        window.location.replace('https://t.me/gigoffiziell/365');
+} else if (command === 'npmanager.apk') {
+        window.location.replace('https://dl2.apkmb.com//vfm-admin/vfm-downloader.php?q=0&sh=8b4ceb73a807f04714cca383ade9e17f&share=2d60a21944f1f1e6ae5b66747524d59c');
+	} else if (command === 'unifiedremotefull.apk') {
+        window.location.replace('https://files.modyolo.com/Unified%20Remote/Unified_Remote_Full-v3.22.3_build_322004-Mod.apk');
+	} else if (command === 'apkeditorpro.apk') {
+        window.location.replace('https://relaxmodapk.net/apk-editor-pro/file/?urls=https%3A%2F%2Fdl.relaxmodapk.com%2Ffiles%2Fapps%2Fapk_ediotr_pro_%286.3.4.1.5.6%28relaxmodapk.net%29.apk');
         } else if (command === 'mtmanagervip.apk') {
         window.location.replace('https://dl.relaxmodapk.com/files/apps/MT%20Manager%20v2.14.5-clone%20(Semi%20ViP).apk');
     } else if (command === 'poweroff') {
@@ -83,12 +85,6 @@ function handleCommand(command) {
         delete inputLine;
         setTimeout(function() {
             window.location.replace('https://google.com');
-        }, 1000);
-} else if (command === 'telegram') {
-        output.innerHTML += telegramText;
-        delete inputLine;
-        setTimeout(function() {
-            window.location.replace('https://t.me/drmatoi');
         }, 1000);
     } else if (command === 'reload') {
         output.innerHTML += rebootText;
